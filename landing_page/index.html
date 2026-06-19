@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MoveNow — Break Sitting. Track Steps. Stay Healthy. Free & Open Source.</title>
+  <meta name="description" content="MoveNow is a free, open-source Android app that fights sedentary lifestyles. Inactivity alarms, step tracking, water intake, desk stretches, gamification badges — all 100% offline and private.">
+  <meta name="keywords" content="movenow, step counter, inactivity alarm, open source, fitness, health, NAFLD, desk stretches, water tracker">
+  <meta name="author" content="Viral Vaghela">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="MoveNow — Break Sitting. Track Steps. Stay Healthy.">
+  <meta property="og:description" content="Free, open-source Android companion that alarms you when you sit too long. Walk 100m to dismiss. Track steps, water, streaks & earn badges — all offline.">
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:title" content="MoveNow — Break Sitting. Track Steps. Stay Healthy.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="glow g1"></div>
+  <div class="glow g2"></div>
+
+  <header>
+    <div class="nav">
+      <a href="#" class="logo">
+        <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="50" cy="50" r="44" stroke="url(#lg)" stroke-width="8" stroke-linecap="round" stroke-dasharray="200 80"/>
+          <path d="M42 35L58 50L42 65" stroke="#fff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+          <defs><linearGradient id="lg" x1="6" y1="6" x2="94" y2="94" gradientUnits="userSpaceOnUse"><stop stop-color="#6366F1"/><stop offset="1" stop-color="#10B981"/></linearGradient></defs>
+        </svg>
+        MoveNow
+      </a>
+      <button class="menu-toggle" onclick="document.querySelector('.nav-links').classList.toggle('open')" aria-label="Menu">
+        <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
+      </button>
+      <ul class="nav-links">
+        <li><a href="#features">Features</a></li>
+        <li><a href="#science">Why It Matters</a></li>
+        <li><a href="#badges">Badges</a></li>
+        <li><a href="#oss" class="gh-btn">
+          <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+          GitHub
+        </a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="pill">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
+      Free & Open Source · 100% Offline · No Ads
+    </div>
+    <h1>Break the Sitting Cycle.<br>Reclaim Your Health.</h1>
+    <p>MoveNow monitors inactivity in the background and triggers an alarm when you sit too long. The only way to stop it? <strong>Get up and walk 100 meters.</strong> Track steps, log water, earn badges — all without internet.</p>
+    <div class="ctas">
+      <a href="https://github.com/viralvaghela/movenow/releases" class="btn btn-p">
+        <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>
+        Download APK
+      </a>
+      <a href="https://github.com/viralvaghela/movenow" class="btn btn-s" target="_blank">View Source Code</a>
+    </div>
+
+    <!-- Animated phone mockup -->
+    <div class="phone-wrap">
+      <div class="phone">
+        <div class="phone-notch"></div>
+        <canvas id="phone-canvas" style="width:100%;height:100%;border-radius:30px"></canvas>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features -->
+  <section id="features" class="features">
+    <div class="sh">
+      <h2>Everything You Need. Zero Bloat.</h2>
+      <p>Built on clean architecture with native Kotlin services and Flutter UI — no ads, no trackers, no server sync.</p>
+    </div>
+    <div class="fg">
+      <div class="fc">
+        <div class="fi">
+          <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+        </div>
+        <h3>Smart Inactivity Alarm</h3>
+        <p>Configurable countdown (15–120 min). When time runs out, a loud alarm with vibration triggers. Walk 100m to auto-dismiss — no snooze cheating.</p>
+      </div>
+      <div class="fc">
+        <div class="fi">
+          <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+        </div>
+        <h3>Privacy First & Offline</h3>
+        <p>All data lives in local SQLite. No cloud, no account, no analytics SDK. Your step counts and health data never leave your device.</p>
+      </div>
+      <div class="fc">
+        <div class="fi">
+          <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+        </div>
+        <h3>Hybrid Pedometer Engine</h3>
+        <p>Uses Step Detector + Step Counter sensors with an accelerometer fallback. Auto-calibrates noise floor for precise counts on any Android device.</p>
+      </div>
+      <div class="fc">
+        <div class="fi">
+          <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"/></svg>
+        </div>
+        <h3>Water Intake Tracker</h3>
+        <p>Log hydration with quick +250ml/+500ml buttons. A custom wave-animated UI visualizes your progress toward a configurable daily goal.</p>
+      </div>
+      <div class="fc">
+        <div class="fi">
+          <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+        </div>
+        <h3>Guided Desk Stretches</h3>
+        <p>4-step timer-guided stretch routines (Neck Release, Shoulder Roll, Seated Twist, Quad Stretch) with auto-advancing 15s countdowns.</p>
+      </div>
+      <div class="fc">
+        <div class="fi">
+          <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+        </div>
+        <h3>Home Screen Widgets</h3>
+        <p>Pin small or large widgets showing live steps, distance, status badge, countdown timer, and an interactive pause button — no app launch needed.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Science -->
+  <section id="science" class="science">
+    <div class="sci-inner">
+      <div class="sci-txt">
+        <h2>Sitting Is the New Smoking.<br><span>Prevent Fatty Liver Disease.</span></h2>
+        <p>Prolonged sitting is directly linked to Non-Alcoholic Fatty Liver Disease (NAFLD), cardiovascular compression, and insulin resistance. Medical research shows that <strong>2 minutes of walking every hour</strong> reactivates lipoprotein lipase and restores vascular blood flow by up to 50%.</p>
+        <div class="stats">
+          <div class="sb"><h4>-50%</h4><p>Vascular compression relief within 2 min of light activity</p></div>
+          <div class="sb"><h4>3.2×</h4><p>Caloric burn rate increase vs continuous sitting</p></div>
+          <div class="sb"><h4>40%</h4><p>Reduced NAFLD risk with hourly movement breaks</p></div>
+          <div class="sb"><h4>100m</h4><p>The walk distance needed to dismiss a MoveNow alarm</p></div>
+        </div>
+      </div>
+      <div class="sci-vis">
+        <div class="calc">
+          <h3>Calorie & Distance Estimator</h3>
+          <p>Adjust your weight and daily step target to preview MET-based calorie calculations:</p>
+          <div class="csg">
+            <div class="csh"><span>Weight</span><span id="wl">70 kg</span></div>
+            <input type="range" id="ws" min="40" max="120" value="70">
+          </div>
+          <div class="csg">
+            <div class="csh"><span>Daily Steps</span><span id="sl">6,000</span></div>
+            <input type="range" id="ss" min="1000" max="15000" step="500" value="6000">
+          </div>
+          <div class="cr">
+            <div class="cs"><h5>Distance</h5><p id="cd">4.20 km</p></div>
+            <div class="cs"><h5>Calories</h5><p id="cc">235 kcal</p></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Badges -->
+  <section id="badges" class="badges">
+    <div class="sh">
+      <h2>Earn Badges. Build Habits.</h2>
+      <p>Gamification keeps you motivated. Unlock achievements based on real activity data from your local database.</p>
+    </div>
+    <div class="badge-grid">
+      <div class="badge-card">
+        <div class="badge-icon">🔥</div>
+        <h3>Daily Streak</h3>
+        <p>Dynamically computed from consecutive days with recorded walking activity. Visible on the dashboard header.</p>
+      </div>
+      <div class="badge-card">
+        <div class="badge-icon">🪑</div>
+        <h3>Chair Dodger</h3>
+        <p>Disrupted sitting time 5 or more times in a single day. You're unstoppable.</p>
+      </div>
+      <div class="badge-card">
+        <div class="badge-icon">🏆</div>
+        <h3>Active Legend</h3>
+        <p>Maintained a 14-day consecutive active streak. True dedication to movement.</p>
+      </div>
+      <div class="badge-card">
+        <div class="badge-icon">🦉</div>
+        <h3>Night Owl</h3>
+        <p>Dismissed an alarm during evening hours (after 8 PM). You move even at night.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- OSS -->
+  <section id="oss" class="oss">
+    <div class="oss-box">
+      <h2>Free. Open Source. Ad-Free.</h2>
+      <p>MoveNow has no analytics, no tracking SDKs, no closed binaries. The entire codebase — Kotlin native services, Flutter UI, SQLite schemas — is public and MIT-licensed. Fork it, improve it, make it yours.</p>
+      <a href="https://github.com/viralvaghela/movenow" class="btn btn-s" target="_blank">
+        <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+        View Source on GitHub
+      </a>
+    </div>
+  </section>
+
+  <footer>
+    <div class="foot">
+      <div>
+        <p>&copy; 2026 MoveNow by Viral Vaghela. MIT License.</p>
+        <p style="font-size:11px;margin-top:3px;color:rgba(255,255,255,.15)">Built with Flutter + Kotlin. Designed for offline health.</p>
+      </div>
+      <div class="fl">
+        <a href="#features">Features</a>
+        <a href="#science">Science</a>
+        <a href="#badges">Badges</a>
+        <a href="https://github.com/viralvaghela/movenow" target="_blank">GitHub</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+  // Calculator
+  const ws=document.getElementById('ws'),ss=document.getElementById('ss');
+  function uc(){
+    const w=+ws.value,s=+ss.value;
+    document.getElementById('wl').textContent=w+' kg';
+    document.getElementById('sl').textContent=s.toLocaleString();
+    document.getElementById('cd').textContent=((s*.7)/1000).toFixed(2)+' km';
+    document.getElementById('cc').textContent=Math.round(3*3.5*w/200*(s/80))+' kcal';
+  }
+  ws.addEventListener('input',uc);ss.addEventListener('input',uc);uc();
+
+  // Phone canvas — animated dashboard mockup
+  const cv=document.getElementById('phone-canvas'),cx=cv.getContext('2d');
+  let t=0;
+  function resize(){const r=cv.getBoundingClientRect();cv.width=r.width*2;cv.height=r.height*2;cx.scale(2,2)}
+  resize();window.addEventListener('resize',resize);
+
+  function draw(){
+    const w=cv.width/2,h=cv.height/2;
+    t+=0.012;
+    cx.clearRect(0,0,w,h);
+
+    // BG
+    const bg=cx.createLinearGradient(0,0,0,h);
+    bg.addColorStop(0,'#0f172a');bg.addColorStop(1,'#020617');
+    cx.fillStyle=bg;cx.fillRect(0,0,w,h);
+
+    // Header
+    cx.fillStyle='#f8fafc';cx.font='bold 14px Outfit,sans-serif';cx.fillText('MoveNow',16,40);
+    cx.fillStyle='#94a3b8';cx.font='11px Plus Jakarta Sans,sans-serif';cx.fillText('Keep moving for active health',16,56);
+
+    // Streak badge
+    cx.fillStyle='rgba(249,115,22,.12)';roundRect(cx,w-90,28,78,24,12);cx.fill();
+    cx.fillStyle='#f97316';cx.font='bold 10px Plus Jakarta Sans,sans-serif';cx.fillText('🔥 3 Day Streak',w-84,44);
+
+    // Ring card
+    const cardY=72,cardH=160,ringCx=w/2,ringCy=cardY+cardH/2;
+    cx.fillStyle='rgba(30,41,59,.5)';roundRect(cx,12,cardY,w-24,cardH,20);cx.fill();
+    cx.strokeStyle='rgba(255,255,255,.06)';cx.lineWidth=1;roundRect(cx,12,cardY,w-24,cardH,20);cx.stroke();
+
+    // Time ring (outer)
+    const tp=(.5+.3*Math.sin(t))%1;
+    cx.beginPath();cx.arc(ringCx,ringCy,48,0,Math.PI*2);cx.strokeStyle='rgba(99,102,241,.1)';cx.lineWidth=8;cx.stroke();
+    cx.beginPath();cx.arc(ringCx,ringCy,48,-Math.PI/2,-Math.PI/2+tp*Math.PI*2);
+    const rg=cx.createLinearGradient(ringCx-48,ringCy,ringCx+48,ringCy);
+    rg.addColorStop(0,'#6366f1');rg.addColorStop(1,'#818cf8');
+    cx.strokeStyle=rg;cx.lineWidth=8;cx.lineCap='round';cx.stroke();
+
+    // Walk ring (inner)
+    const wp=(.3+.2*Math.sin(t*1.3))%1;
+    cx.beginPath();cx.arc(ringCx,ringCy,36,0,Math.PI*2);cx.strokeStyle='rgba(16,185,129,.1)';cx.lineWidth=6;cx.stroke();
+    cx.beginPath();cx.arc(ringCx,ringCy,36,-Math.PI/2,-Math.PI/2+wp*Math.PI*2);
+    cx.strokeStyle='#10b981';cx.lineWidth=6;cx.lineCap='round';cx.stroke();
+
+    // Center text
+    const mins=Math.round(45+10*Math.sin(t*.5));
+    cx.fillStyle='#f8fafc';cx.font='bold 18px Outfit,sans-serif';cx.textAlign='center';
+    cx.fillText(mins+' min',ringCx,ringCy+2);
+    cx.fillStyle='#64748b';cx.font='9px Plus Jakarta Sans,sans-serif';
+    cx.fillText('42 / 100m',ringCx,ringCy+16);
+    cx.textAlign='left';
+
+    // Stats row
+    const sy=cardY+cardH+16;
+    const sw=(w-24-12)/2;
+    [['Steps Today','4,827','#a78bfa'],['Distance','3.38 km','#60a5fa'],['Calories','192 kcal','#f87171'],['Status','Active','#2dd4bf']].forEach((s,i)=>{
+      const col=i%2,row=Math.floor(i/2);
+      const sx=12+col*(sw+12),ssy=sy+row*(56+8);
+      cx.fillStyle='rgba(30,41,59,.4)';roundRect(cx,sx,ssy,sw,56,14);cx.fill();
+      cx.fillStyle=s[2];cx.font='bold 16px Outfit,sans-serif';cx.fillText(s[1],sx+12,ssy+24);
+      cx.fillStyle='#64748b';cx.font='10px Plus Jakarta Sans,sans-serif';cx.fillText(s[0],sx+12,ssy+42);
+    });
+
+    // Water card
+    const wy=sy+2*(56+8)+12;
+    cx.fillStyle='rgba(30,41,59,.4)';roundRect(cx,12,wy,w-24,60,16);cx.fill();
+    cx.fillStyle='#38bdf8';cx.font='bold 11px Plus Jakarta Sans,sans-serif';cx.fillText('💧 Water Intake',24,wy+20);
+    cx.fillStyle='#94a3b8';cx.font='10px Plus Jakarta Sans,sans-serif';cx.fillText('1,250 / 2,000 ml',24,wy+38);
+    // Progress bar
+    cx.fillStyle='rgba(56,189,248,.15)';roundRect(cx,24,wy+44,w-48,6,3);cx.fill();
+    cx.fillStyle='#38bdf8';roundRect(cx,24,wy+44,(w-48)*.625,6,3);cx.fill();
+
+    requestAnimationFrame(draw);
+  }
+
+  function roundRect(c,x,y,w,h,r){c.beginPath();c.moveTo(x+r,y);c.lineTo(x+w-r,y);c.quadraticCurveTo(x+w,y,x+w,y+r);c.lineTo(x+w,y+h-r);c.quadraticCurveTo(x+w,y+h,x+w-r,y+h);c.lineTo(x+r,y+h);c.quadraticCurveTo(x,y+h,x,y+h-r);c.lineTo(x,y+r);c.quadraticCurveTo(x,y,x+r,y);c.closePath()}
+
+  draw();
+  </script>
+</body>
+</html>
